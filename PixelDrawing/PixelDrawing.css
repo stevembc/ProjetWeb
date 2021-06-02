@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#554562, #102246);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Press Start 2P';
+    font-size: 64px;
+    color: white;
+    border-color: black;
+}
+
+#grille {
+    display: table;
+    border-spacing: 0px;
+    border: 5px solid black;
+}
+
+#bord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 750px;
+    border-radius: 3%;
+    border: 30px solid rgb(161, 161, 161);
+    background-color: rgb(161, 161, 161);
+}
+
+.ligne {
+    display: table-row;
+}
+
+.pixel {
+    display: table-cell;
+    border: 1px solid black;
+    margin: 0;
+    width: 35px;
+    height: 35px;
+}
+
+#palette {
+    font-family: 'Orbitron';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 19px;
+    position: relative;
+    top: 0.5px;
+}
+
+input {
+    font-family: 'Orbitron';
+    width: 107px;
+    height: 23px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

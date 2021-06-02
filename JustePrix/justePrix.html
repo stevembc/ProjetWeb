@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>JustePrix</title>
+    <link rel="stylesheet" href="JustePrix.css">
+    <link rel="stylesheet" href="../styleGlobal/styleGlobal.css">
+</head>
+<body>
+<h1 id="titre">JustePrix</h1>
+<section id="TourJoueur">
+    <h2>Premier Tour</h2>
+    <span>Vous devez trouver le nombre mystère de l'ordinateur (entre 0 et 100), essayez de le faire en moins de tour possible ! </span><br>
+    <input type="number" id="nombre" required>
+        <button id="btnConfirmer" class="btnJP" value="confirmer">Confirmer</button>
+    <div id="information"></div>
+</section>
+
+
+<section id="tourSuivant">
+    <p id="message"></p>
+    <p>Avant de continuer, vous devez penser à un nombre situé entre 1 et 100.</p>
+    <button id="btnSuivant" class="btnJP" value="suivant">Suivant</button>
+</section>
+
+
+
+<section id="TourOrdinateur" >
+    <h2>Deuxieme tour :</h2>
+    <p id="aleaOrdi"></p><br>
+    Votre nombre est :
+    <div id="btns">
+        <button id="btnGrand" class="btnJP" value="grand">Plus grand</button>
+        <button id="btnPetit" class="btnJP" value="petit">Plus petit</button><br>
+        <button id="btnTrouve" class="btnJP" value="trouvé">Trouvé</button>
+        <button id="btnRefresh" class="btnJP">Recommencer</button>
+    </div>
+</section>
+
+<section id="fin">
+    <p id="resultat"> </p><br>
+    Voici le score final (votre score vs celui de l'ordinateur) : <span class="score"> </span>
+    <button id="btnRecommencer" class="btnJP">Rejouer</button>
+</section>
+
+<div class="infoContent">
+    <button id="info">
+        <img src="../styleGlobal/src/info.svg" alt="">
+    </button>
+    <div id="notice" class="notice">
+        <h2 id="titleNotice">Comment jouer :</h2>
+        <button id="closeNotice" ><a href="">✖</a></button>
+        <p>Bienvenue au Juste Prix ! </p>
+        <p>Au premier tour, vous devez deviner le nombre de l'ordinateur en essayant de le trouver en moins de tour possible.Au deuxieme tour, il faut penser a un nombre de facon a ce que l'ordinateur fasse le plus de tour possible.</p>
+        <p>Le gagnant est celui qui a fait le moins de tour.</p>
+    </div>
+    <button id="close" ><a href="../index.html">✖</a></button>
+</div>
+<script src="../styleGlobal/styleGlobal.js" defer></script>
+<script type="text/javascript" src="JustePrix.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cesarStyle.css">
+    <script src="cesarScript.js" defer></script>
+    <link rel="stylesheet" href="../styleGlobal/styleGlobal.css">
+    <script src="../styleGlobal/styleGlobal.js" defer></script>
+    <title>Chiffre de Cesar.</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Le Chiffre de Cesar :</h1>
+        <section id="demande">
+            <input type="text" name="message" id="message" value="">
+            <input type="number" name="nombre" min="0" max="26" id="nombre" value="">
+            <input type="submit" value="Chiffrer" onclick="criptage()">
+        </section>
+        <section id="reponse">
+            <div id="result">
+            </div>
+    </div>
+    </section>
+
+    <div class="infoContent">
+        <button id="info">
+            <img src="../styleGlobal/src/info.svg" alt="">
+        </button>
+        <div id="notice" class="notice">
+            <h2 id="titleNotice">Comment jouer :</h2>
+            <button id="closeNotice" ><a href="">✖</a></button>
+            <p>César utilisait pour ses correspondances un chiffrement par décalage de 3 lettres vers la droite. Aujourd'hui l'expression « chiffre de César » désigne n'importe quel chiffrement par décalage, pas forcément de 3.</p>
+            <p>Pour l'utiliser, écrivez un mot/texte dans le champ correspondant, ensuite choisissez un chiffre de décalage, et cliquez sur "chiffrer".</p>
+        </div>
+        <button id="close" ><a href="../index.html">✖</a></button>
+    </div>
+</body>
+</html>

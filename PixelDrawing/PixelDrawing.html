@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Drawer</title>
+    <link rel="stylesheet" href="PixelDrawing.css">
+    <link rel="stylesheet" href="../styleGlobal/styleGlobal.css">
+</head>
+<body>
+    <h1>Pixel Drawer</h1>
+    <div id="bord">
+        <div id="palette">
+            <label for="inputCouleur">Couleur :</label>
+            <input type="color" id="inputCouleur" value="#000000">
+            <input type="button" value="Pipette" id="pipette">
+            <input type="button" value="Tout Effacer" id="effacer">
+        </div>
+        <div id="grille">
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(37, 225, 157)"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+            <div class="ligne">
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+                <div class="pixel" style="background-color: rgb(84, 84, 84);"></div>
+            </div>
+        </div>
+    </div>
+    <div class="infoContent">
+        <button id="info">
+            <img src="../styleGlobal/src/info.svg" alt="">
+        </button>
+        <div id="notice" class="notice">
+            <h2 id="titleNotice">Comment jouer :</h2>
+            <button id="closeNotice" ><a href="">✖</a></button>
+            <p>Bienvenue au Pixel Drawing: </p>
+            <p>Laissez libre cours à votre imagination et dessinez ce que vous voulez</p>
+            <p>La pipette permet de récuperer une couleur déja utilisé.</p>
+        </div>
+        <button id="close" ><a href="../index.html">✖</a></button>
+    </div>
+    <script src="../styleGlobal/styleGlobal.js" defer></script>
+    <script src="PixelDrawing.js"></script>
+</body>
+</html>

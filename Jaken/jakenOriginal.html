@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styleOriginal.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="../styleGlobal/styleGlobal.css">
+    <script src="../styleGlobal/styleGlobal.js" defer></script>
+    <title>Janken Original.</title>
+</head>
+<body>
+    <section id="score">
+        <div class="containerJoueur">
+            <span id="decoJoueur">Score Joueur:</span>
+            <span id="resultJoueur"></span>
+        </div>
+        <span id="vs">VS</span>
+        <div class="containerOrdi">
+            <span id="decoOrdi">Score Ordi:</span>
+            <span id="resultOrdi"></span>
+        </div>
+    </section>
+    <section id="choix">
+        <div class="fond">
+            <img src="src/bg-triangle.svg" alt="">
+        </div>
+        <button id="pierre"><img src="src/icon-rock.svg" alt=""></button>
+        <button id="ciseaux"><img src="src/icon-scissors.svg" alt=""></button>
+        <button id="feuille"><img src="src/icon-paper.svg" alt=""></button>
+    </section>
+
+    <div class="popup-container" id="popwin">
+        <div class="popup">
+            <p class="resultat"></p>
+            <h1>Gagné !</h1>
+        </div>
+    </div>
+    <div class="popup-container" id="poploose">
+        <div class="popup">
+            <p class="resultat"></p>
+            <h1>Perdu...</h1>
+        </div>
+    </div>
+    <div class="popup-container" id="popegal">
+        <div class="popup">
+            <p class="resultat"></p>
+            <h1>Egalité.</h1>
+        </div>
+    </div>
+
+    <div class="global" id="winglobal">
+        <div class="containerglobal">
+            <h1>Vous avez gagné !</h1>
+            <button id="restart"><a href="jakenOriginal.html">Recommencer.</a></button>
+        </div>
+    </div>
+    <div class="global" id="looseglobal">
+        <div class="containerglobal">
+            <h1>Vous avez perdu...</h1>
+            <button id="restart"><a href="jakenOriginal.html">Recommencer.</a></button>
+        </div>
+    </div>
+
+    <div class="infoContent">
+        <button id="info">
+            <img src="../styleGlobal/src/info.svg" alt="">
+        </button>
+        <div id="notice" class="notice">
+            <h2 id="titleNotice">Comment jouer :</h2>
+            <button id="closeNotice" ><a href="">✖</a></button>
+            <p> La pierre écrase les ciseaux et gagne.</p>
+            <p>La feuille enveloppe la pierre et gagne.</p>
+            <p>Les ciseaux découpent la feuille et gagnent.</p>
+            <p>A partir de là chaque forme en bat une autre et perd contre une autre.</p>
+        </div>
+        <button id="close" ><a href="../index.html">✖</a></button>
+    </div>
+</body>
+</html>

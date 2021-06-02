@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Puissance 4</title>
+        <script src="fonctionP4.JS" defer></script>
+        <link rel="stylesheet" href="styleP4.css">
+        <link rel="stylesheet" href="../styleGlobal/styleGlobal.css">
+        <script src="../styleGlobal/styleGlobal.js" defer></script>
+    </head>
+    <body>
+        <div id="game">
+              <table id = "ElTablo" align="center">
+                <tr>
+                    <td id = "n60"></td>
+                    <td id = "n61"></td>
+                    <td id = "n62"></td>
+                    <td id = "n63"></td>
+                    <td id = "n64"></td>
+                    <td id = "n65"></td>
+                    <td id = "n66"></td>
+                </tr>
+                <tr>
+                    <td id = "n50"></td>
+                    <td id = "n51"></td>
+                    <td id = "n52"></td>
+                    <td id = "n53"></td>
+                    <td id = "n54"></td>
+                    <td id = "n55"></td>
+                    <td id = "n56"></td>
+                </tr>
+                <tr>
+                    <td id = "n40"></td>
+                    <td id = "n41"></td>
+                    <td id = "n42"></td>
+                    <td id = "n43"></td>
+                    <td id = "n44"></td>
+                    <td id = "n45"></td>
+                    <td id = "n46"></td>
+                </tr>
+                <tr>
+                    <td id = "n30"></td>
+                    <td id = "n31"></td>
+                    <td id = "n32"></td>
+                    <td id = "n33"></td>
+                    <td id = "n34"></td>
+                    <td id = "n35"></td>
+                    <td id = "n36"></td>
+                </tr>
+                <tr>
+                    <td id = "n20"></td>
+                    <td id = "n21"></td>
+                    <td id = "n22"></td>
+                    <td id = "n23"></td>
+                    <td id = "n24"></td>
+                    <td id = "n25"></td>
+                    <td id = "n26"></td>
+                </tr>
+                <tr>
+                    <td id = "n10"></td>
+                    <td id = "n11"></td>
+                    <td id = "n12"></td>
+                    <td id = "n13"></td>
+                    <td id = "n14"></td>
+                    <td id = "n15"></td>
+                    <td id = "n16"></td>
+                </tr>
+            </table>   
+        </div>
+
+        <div id=GroupeBouton align=center>
+            <input type="button" class="button" value ="1" onclick="colonne1()">
+            <input type="button" class="button" value ="2" onclick="colonne2()">
+            <input type="button" class="button" value ="3" onclick="colonne3()">
+            <input type="button" class="button" value ="4" onclick="colonne4()">
+            <input type="button" class="button" value ="5" onclick="colonne5()">
+            <input type="button" class="button" value ="6" onclick="colonne6()">
+            <input type="button" class="button" value ="7" onclick="colonne7()">
+        </div>
+
+        <div class="infoContent">
+            <button id="info">
+                <img src="../styleGlobal/src/info.svg" alt="">
+            </button>
+            <div id="notice" class="notice">
+                <h2 id="titleNotice">Comment jouer :</h2>
+                <button id="closeNotice" ><a href="">✖</a></button>
+                <p>Le but du jeu est d'aligner une suite de 4 pions de même couleur sur une grille comptant 6 rangées et 7 colonnes. Chaque joueur dispose de 21 pions d'une couleur (par convention, en général jaune ou rouge). Tour à tour, les deux joueurs placent un pion dans la colonne de leur choix, le pion coulisse alors jusqu'à la position la plus basse possible dans la dite colonne à la suite de quoi c'est à l'adversaire de jouer.</p>
+                <p> Le vainqueur est le joueur qui réalise le premier un alignement (horizontal, vertical ou diagonal) consécutif d'au moins quatre pions de sa couleur. Si, alors que toutes les cases de la grille de jeu sont remplies, aucun des deux joueurs n'a réalisé un tel alignement, la partie est déclarée nulle.</p>
+            </div>
+            <button id="close" ><a href="../index.html">✖</a></button>
+        </div>
+        
+    </body>
+</html>

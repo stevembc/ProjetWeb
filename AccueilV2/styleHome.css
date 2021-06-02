@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 20vh 70vh 10vh;
+    background: radial-gradient(#554562, #102246);
+    font-family:"Press Start 2P";
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+    margin-top: 25px;
+}
+#center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+ul{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+li{
+    margin-top: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+li a:hover{
+    color: #FFE350;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#topright img{
+    height: 40vh;
+    margin-bottom: 20px;
+}
+#botright{
+    display: flex;
+}
+#botright span{
+    font-size: 30px;
+    color: #fff;
+}
+.cote{
+    height: 30px;
+    width: 80px;
+    background-color: #fff;
+    margin: 0 10px 0 10px;
+}
+#start{
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+}
+#start a{
+    text-decoration: none;
+    color: #fff;
+}
+#start a:hover{
+    color: #FFE350;
+}
+#infos{
+    position: fixed;
+    width: 10vh;
+    bottom: 10px;
+    left: 10px;
+}
+#infos:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    h1, ul, #botright span, #start{
+        font-size: 20px;
+    }
+    .cote{
+        height: 20px;
+    }
+    #topright{
+        display: none;
+    }
+    #center{
+        flex-direction: column;
+    }
+  }
